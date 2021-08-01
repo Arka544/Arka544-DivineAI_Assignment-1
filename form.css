@@ -1,0 +1,132 @@
+.regform
+{
+    width: 40%;
+    padding: 40px;
+    background-color:white;
+    border-radius: 10px;
+}
+.regform h1
+{
+    font-size: 30px;
+    color: #333;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.regform h4
+{
+    font-size: 20px;
+    color: rgb(11, 43, 114);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+.regform .inputbox
+{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.regform .inputbox input,
+.regform .inputbox textarea,
+.regform .tellme input,
+.regform .tellme textarea,
+.regform .DOB label,
+.regform .DOB textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid rgb(121, 27, 27);
+    outline: nb;
+    resize: both;
+}
+.regform .inputbox span
+{   
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.regform .DOB label
+{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    color: #666;
+}
+.regform .DOB input 
+{
+    border: 1px solid #212830;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    width: 150px;
+}
+.regform .Gender legend,
+.regform .Countries legend
+{
+    position: absolute;
+    padding: 5px 0;
+    color: #666;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.regform .Gender span
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: rgb(46, 45, 45);
+
+}
+.regform .Countries
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    margin: 10px 0;
+    transition: 0.5s;
+    color: rgb(46, 45, 45);
+
+}
+.regform .inputbox input:focus ~ span,
+.regform .inputbox input:valid ~ span,
+.regform .inputbox input:focus ~ span,
+.regform .DOB input:valid ~ label
+{
+    color: #e91e1e;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-22px)
+}
+.regform .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: #3a838d;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+body
+{
+    background: url(bg.jpg);
+    height:auto;
+    min-height: 900px;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
